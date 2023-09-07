@@ -1,0 +1,19 @@
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+input,
+p {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 480px) {
+  ul li {
+    flex-wrap: wrap;
+  }
+  input,
+  p {
+    font-size: 18px;
+  }
+}
